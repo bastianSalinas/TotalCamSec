@@ -213,7 +213,7 @@ textarea::placeholder {
     background-size: cover;
     position: relative;
     text-align: center;
-    padding: 50px;
+    padding: 90px;
 }
 
 .s1::before {
@@ -244,7 +244,7 @@ textarea::placeholder {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 50px;
+    padding: 90px;
 }
 .s2::before {
     position: absolute;
@@ -261,7 +261,7 @@ textarea::placeholder {
     background-image: url("../images/servicio3.jpg");
     background-size: cover;
     position: relative;
-    padding: 50px;
+    padding: 90px;
 }
 .s3::before {
     position: absolute;
@@ -279,7 +279,7 @@ textarea::placeholder {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 50px;
+    padding: 90px;
 }
 
 .s4::before {
