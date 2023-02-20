@@ -295,7 +295,8 @@ textarea::placeholder {
 
 /*---------------------------------------Sección 3------------------------------------*/
 #section-3 {
-    background-color: #1C2745;
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(28,39,69,1) 30%, rgba(221,221,221,1) 100%);
     height: 600px;
 }
 
@@ -371,9 +372,10 @@ textarea::placeholder {
     }
 }
 
-/*Sección 4*/
+/*---------------------------Sección 4---------------------------------------------------------*/
 #section-4 {
-    background-color: #dddddd;
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(28,39,69,1) 30%, rgba(221,221,221,1) 100%);
     height: 600px;
 }
 
@@ -384,6 +386,7 @@ textarea::placeholder {
 
 .textimage {
     width: 400px;
+    color: white;
 }
 
 .containerus {
@@ -457,10 +460,11 @@ textarea::placeholder {
     transform: scale(1.05, 1.05);
 }
 
-/*Sección 5*/
+/*----------------------------Sección 5---------------------------------------------*/
 #section-5 {
     height: 600px;
-    background-color: #dddddd;
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(28,39,69,1) 30%, rgba(221,221,221,1) 100%);
 }
 
 .containercont {
@@ -469,6 +473,7 @@ textarea::placeholder {
     margin: 150px 0px 0px 250px;
     position: absolute;
     justify-content: space-between;
+    color: white;
 }
 
 #taformcont {
