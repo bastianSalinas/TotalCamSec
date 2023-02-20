@@ -131,7 +131,7 @@ ul {
 .txtHome {  
     width: 50%;
     color: #000000;
-    padding: 150px 300px 0px 40px;
+    padding: 50px 300px 0px 100px;
 }
 
 input[type=text],
@@ -591,6 +591,111 @@ footer .itemfooter {
 
 /*-------------------------Diseño Responsivo------------------------------*/
 
+
+@media screen and (max-width: 1290px) {
+
+    
+    /*--------------------Seccion 1---------------------------------*/
+
+    #section-1 {
+        height: auto;
+    }
+    .itemSect1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .txtHome {  
+        width: 100%;
+        color: #000000;
+        padding: 20px;
+    }
+    .formHome {
+        position: relative;
+        min-width: 450px;
+        margin: 20px 0px 20px 20px;
+        height: auto;
+    }
+
+    /*---------------------Seccion 2--------------------------------*/
+    /*No se aplicará con 1024px*/
+
+
+
+    /*-------------------------Footer-------------------------------*/
+
+    footer {
+        height: auto;
+    }
+
+    footer .itemfooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+    .sect1footer {
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 1260px) {
+
+    
+    /*---------------------Seccion 2--------------------------------*/
+    #section-2{
+        display: grid;
+    }
+    #section-2 > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service {
+        width: 100%;
+    }
+
+    /*-------------------------Footer-------------------------------*/
+
+    footer {
+        height: auto;
+    }
+
+    footer .itemfooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+    .sect1footer {
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
 
     /*------------------Cabecera------------------------------------*/
@@ -665,15 +770,16 @@ footer .itemfooter {
     /*------------Seccion 1-------------*/
     #section-1 {
         height: auto;
+        background-position-y: top;
     }
     .itemSect1 {
         display: flex;
         flex-direction: column;
     }
     .txtHome {  
-        width: 100%;
+        width: 80%;
         color: #000000;
-        padding: 20px;
+        padding: 50px;
     }
     /*---------------Seccion 2-----------*/
     #section-2{
