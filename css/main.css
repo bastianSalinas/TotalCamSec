@@ -75,11 +75,14 @@ ul {
     bottom: -3px;
     transition: 0.4s ease-out;
 }
-
+.active{
+    font-weight: 800; 
+}
 .navbar ul li:hover::before {
     width: 100%;
-
 }
+
+
 
 #logo {
     width: 70px;
