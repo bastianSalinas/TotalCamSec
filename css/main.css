@@ -41,12 +41,11 @@ ul {
     font-size: 20px;
     background-color: #000000;
 }
-
 .containerNav {
     width: 90%;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: initial;
     justify-content: space-between;
 }
 
@@ -56,13 +55,8 @@ ul {
     margin: 0 10px;
     position: relative;
     cursor: pointer;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 0px 10px;
 }
-
-.navbar ul li:hover {
-    background-color: rgba(250, 250, 250, 0.648);
-}
-
 
 .navbar ul li a {
     text-decoration: none;
@@ -78,22 +72,13 @@ ul {
     background: #1C2745;
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: -3px;
     transition: 0.4s ease-out;
 }
 
 .navbar ul li:hover::before {
     width: 100%;
 
-}
-
-.checkbtn {
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
 }
 
 #logo {
@@ -727,14 +712,10 @@ footer .itemfooter {
         display: none;
     }
 
-    .navbar {
-        display: none;
-    }
-
-    .checkbtn {
+    /* .checkbtn {
         display: block;
-    }
-
+        cursor: pointer;
+    } */
     /*--------------------Seccion 1---------------------------------*/
 
     #section-1 {
