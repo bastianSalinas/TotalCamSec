@@ -295,20 +295,17 @@ textarea::placeholder {
 #section-3 {
     background: rgb(0, 0, 0);
     background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
-    height: 600px;
 }
 
 .mission {
-    width: 80%;
-    height: 50%;
+    width: 90%;
     display: flex;
-    position: absolute;
-    margin: 20px 0px 0px 140px;
+    margin: 0px 0px 0px 140px;
 }
 
 .imgmission {
     width: 400px;
-    height: auto;
+    margin: 20px;
 }
 
 .textmission {
@@ -321,26 +318,22 @@ textarea::placeholder {
     display: flex;
     margin-top: 10px;
 }
-
-#medal1 {
-    background-color: #ccc;
+#medal1{
+    color: black;
 }
-
-#medal2 {
-    background-color: gray;
+#medal3{
+    color: black;
 }
-
-#medal3 {
-    background-color: #ccc;
+.containerSlide{
+    height: 150px;
 }
 
 .slider {
-    width: 75vw;
+    width: 65vw;
     height: auto;
-    margin: 450px 0px 0px 190px;
+    margin: 10px 0px 0px 190px;
     overflow: hidden;
     position: absolute;
-
 }
 
 .slider .slide-track {
@@ -595,7 +588,6 @@ footer .itemfooter {
 
 /*-------------------------Diseño Responsivo------------------------------*/
 
-
 @media screen and (max-width: 1290px) {
 
 
@@ -626,6 +618,32 @@ footer .itemfooter {
     /*---------------------Seccion 2--------------------------------*/
     /*No se aplicará con 1024px*/
 
+    /*-------------------------Sección 3------------------------------*/
+    .mission{
+        display: flex;
+        flex-direction: column ;
+        margin: 0px 0px 0px 20px;
+    }
+    .mission{
+        width: 100%;
+    }
+    .imgmission {
+        width: 430px;
+        margin: 20px;
+    }
+    
+    .textmission {
+        width: 90%;
+        color: white;
+        padding: 20px 0px 0px 20px;
+    }
+    .slider {
+        width: 75vw;
+        height: auto;
+        margin: 10px 0px 0px 50px;
+        overflow: hidden;
+        position: absolute;
+    }
 
 
     /*-------------------------Footer-------------------------------*/
