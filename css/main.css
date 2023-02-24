@@ -41,6 +41,7 @@ ul {
     font-size: 20px;
     background-color: #000000;
 }
+
 .containerNav {
     width: 90%;
     margin: auto;
@@ -75,9 +76,11 @@ ul {
     bottom: -3px;
     transition: 0.4s ease-out;
 }
-.active{
-    font-weight: 800; 
+
+.active {
+    font-weight: 800;
 }
+
 .navbar ul li:hover::before {
     width: 100%;
 }
@@ -185,7 +188,7 @@ textarea::placeholder {
 }
 
 
-/*-------------------------Sección 2--------------------------------------------------*/
+/*-----------------------------------------------Sección 2--------------------------------------------------*/
 
 #section-2 {
     background-color: #1C2745;
@@ -291,7 +294,7 @@ textarea::placeholder {
     position: relative;
 }
 
-/*---------------------------------------Sección 3------------------------------------*/
+/*---------------------------------------------------Sección 3-----------------------------------------------*/
 #section-3 {
     background: rgb(0, 0, 0);
     background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
@@ -318,13 +321,16 @@ textarea::placeholder {
     display: flex;
     margin-top: 10px;
 }
-#medal1{
+
+#medal1 {
     color: black;
 }
-#medal3{
+
+#medal3 {
     color: black;
 }
-.containerSlide{
+
+.containerSlide {
     height: 150px;
 }
 
@@ -363,16 +369,14 @@ textarea::placeholder {
     }
 }
 
-/*---------------------------Sección 4---------------------------------------------------------*/
+/*---------------------------------------Sección 4---------------------------------------------------------*/
 #section-4 {
     background: rgb(0, 0, 0);
     background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
-    height: 600px;
 }
 
 .imgaboutus {
     width: 400px;
-    height: auto;
 }
 
 .textimage {
@@ -382,11 +386,10 @@ textarea::placeholder {
 
 .containerus {
     width: 70%;
-    height: 40%;
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px 0px 180px;
+    margin: 0px 0px 0px 160px;
+    padding: 20px;
 }
 
 .box1 {
@@ -457,33 +460,34 @@ textarea::placeholder {
     transform: scale(1.05, 1.05);
 }
 
-/*----------------------------Sección 5---------------------------------------------*/
+/*-------------------------------------------Sección 5------------------------------------------------------*/
+
 #section-5 {
-    height: 600px;
     background: rgb(0, 0, 0);
     background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
 }
 
 .containercont {
     display: flex;
-    width: 70%;
-    margin: 150px 0px 0px 250px;
-    position: absolute;
+    width: 90%;
+    padding: 150px;
+    margin-left: 50px;
     justify-content: space-between;
     color: white;
 }
+.sectionrcont{
+    margin-left: 20px;
+}
 
 #taformcont {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 500px;
-    height: 80px;
+    height: 90px;
     resize: none;
 }
 
 .lblformcont {
     position: relative;
-    padding-left: 10px;
-    margin-bottom: 12px;
     cursor: pointer;
     font-size: 17px;
     -webkit-user-select: none;
@@ -505,7 +509,7 @@ textarea::placeholder {
     cursor: pointer;
 }
 
-/*Footer*/
+/*-------------------------------------------Footer-----------------------------------------------*/
 
 footer {
     background-color: #000000;
@@ -593,10 +597,6 @@ footer .itemfooter {
 
     /*--------------------Seccion 1---------------------------------*/
 
-    #section-1 {
-        height: auto;
-    }
-
     .itemSect1 {
         display: flex;
         flex-direction: column;
@@ -619,24 +619,27 @@ footer .itemfooter {
     /*No se aplicará con 1024px*/
 
     /*-------------------------Sección 3------------------------------*/
-    .mission{
+    .mission {
         display: flex;
-        flex-direction: column ;
+        flex-direction: column;
         margin: 0px 0px 0px 20px;
     }
-    .mission{
-        width: 100%;
+
+    .mission {
+        width: 85%;
     }
+
     .imgmission {
         width: 430px;
         margin: 20px;
     }
-    
+
     .textmission {
         width: 90%;
         color: white;
         padding: 20px 0px 0px 20px;
     }
+
     .slider {
         width: 75vw;
         height: auto;
@@ -645,12 +648,36 @@ footer .itemfooter {
         position: absolute;
     }
 
+    /*-------------------------Sección 4------------------------------*/
+
+    .containerus {
+        margin: 0px 0px 0px 20px;
+    }
+
+    /*-------------------------------------------Sección 5------------------------------------------------------*/
+
+    .containercont {
+        display: flex;
+        width: 80%;
+        padding: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
+        color: white;
+    }
+
+    #taformcont {
+        margin-top: 10px;
+        width: 380px;
+        height: 90px;
+        resize: none;
+    }
+
+    .sectionrcont {
+        padding: 20px;
+        width: 400px;
+    }
 
     /*-------------------------Footer-------------------------------*/
-
-    footer {
-        height: auto;
-    }
 
     footer .itemfooter {
         display: grid;
@@ -697,10 +724,6 @@ footer .itemfooter {
 
     /*-------------------------Footer-------------------------------*/
 
-    footer {
-        height: auto;
-    }
-
     footer .itemfooter {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -739,10 +762,6 @@ footer .itemfooter {
     } */
     /*--------------------Seccion 1---------------------------------*/
 
-    #section-1 {
-        height: auto;
-    }
-
     .itemSect1 {
         display: flex;
         flex-direction: column;
@@ -768,9 +787,6 @@ footer .itemfooter {
 
     /*-------------------------Footer-------------------------------*/
 
-    footer {
-        height: auto;
-    }
 
     footer .itemfooter {
         display: grid;
@@ -797,11 +813,84 @@ footer .itemfooter {
 
 }
 
+@media screen and (max-width: 950px) {
+    /*-------------------------Sección 4------------------------------*/
+
+    .containerus {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0px 0px 0px 20px; */
+    }
+
+    .imgaboutus {
+        min-width: 400px;
+    }
+
+    .sectionrus {
+        width: 60%;
+    }
+
+    .box1 {
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    .box2 {
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    .box3 {
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    .box4 {
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    .box5 {
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    /*-------------------------------------------Sección 5------------------------------------------------------*/
+
+    .containercont {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 20px;
+        color: white;
+    }
+
+    #taformcont {
+        margin-top: 10px;
+        width: 400px;
+        height: 90px;
+        resize: none;
+    }
+
+    .btnFormCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionrcont {
+        margin-top: 20px;
+        padding: 0px;
+        width: 400px;
+        margin-left: 0px;
+        
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     /*------------Seccion 1-------------*/
     #section-1 {
-        height: auto;
         background-position-y: top;
     }
 
@@ -831,12 +920,32 @@ footer .itemfooter {
         width: 100%;
     }
 
+    /*-------------------------Sección 3------------------------------*/
 
+    .mission {
+        width: 85%;
+    }
+
+    .imgmission {
+        width: 430px;
+        margin: 20px;
+    }
+
+    .textmission {
+        width: 100%;
+        color: white;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .slider {
+        width: 75vw;
+        height: auto;
+        margin: 10px 0px 0px 50px;
+        overflow: hidden;
+        position: absolute;
+    }
 
     /*-----------Footer------------------*/
-    footer {
-        height: auto;
-    }
 
     footer .itemfooter {
         display: grid;
