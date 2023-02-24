@@ -475,7 +475,8 @@ textarea::placeholder {
     justify-content: space-between;
     color: white;
 }
-.sectionrcont{
+
+.sectionrcont {
     margin-left: 20px;
 }
 
@@ -882,7 +883,7 @@ footer .itemfooter {
         padding: 0px;
         width: 400px;
         margin-left: 0px;
-        
+
     }
 
 }
