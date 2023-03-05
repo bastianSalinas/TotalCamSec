@@ -44,12 +44,14 @@ ul {
 
 .containerNav {
     width: 90%;
-    margin: auto;
-    display: flex;
+    margin: auto; 
+    display: flex; 
     align-items: initial;
     justify-content: space-between;
 }
-
+.containerMenu {
+    text-align: right;
+}
 .navbar ul li {
     list-style: none;
     display: inline-block;
@@ -84,7 +86,6 @@ ul {
 .navbar ul li:hover::before {
     width: 100%;
 }
-
 
 
 #logo {
@@ -925,9 +926,16 @@ footer .itemfooter {
     }
 
 }
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
     
+    /*--------------------Menú---------------------------------*/
+    .navbar ul li a {
+        margin-top: 10px;
+    }
+}
+    
+@media screen and (max-width: 980px) {
+      
     /*--------------------Seccion 1---------------------------------*/
 
     .itemSect1 {
