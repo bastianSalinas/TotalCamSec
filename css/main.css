@@ -123,8 +123,9 @@ ul {
 
 .txtHome {
     width: 50%;
+    min-width: 520px;
     color: #000000;
-    padding: 20px 350px 0px 80px;
+    padding: 20px 350px 0px 70px;
 }
 .chbox{
     font-size:20px!important;
@@ -595,6 +596,116 @@ footer .itemfooter {
 
 /*-------------------------Diseño Responsivo------------------------------*/
 
+@media screen and (max-width: 1425px) {
+
+
+    /*--------------------Seccion 1---------------------------------*/
+
+    .itemSect1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txtHome {
+        width: 75%;
+        color: #000000;
+        padding: 20px;
+    }
+
+    .formHome {
+        position: relative;
+        min-width: 450px;
+        margin: 20px 0px 20px 20px;
+    }
+
+    /*---------------------Seccion 2--------------------------------*/
+    /*No se aplicará con 1024px*/
+
+    /*-------------------------Sección 3------------------------------*/
+    .mission {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .mission {
+        width: 85%;
+    }
+
+    .imgmission {
+        width: 430px;
+        margin: 20px;
+    }
+
+    .textmission {
+        width: 90%;
+        color: #FFFFFF;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .slider {
+        width: 75vw;
+        height: auto;
+        margin: 10px 0px 0px 50px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    /*-------------------------Sección 4------------------------------*/
+
+    .containerus {
+        margin: 0px 0px 0px 20px;
+    }
+
+    /*-------------------------------------------Sección 5------------------------------------------------------*/
+
+    .containercont {
+        display: flex;
+        width: 80%;
+        padding: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+    #taformcont {
+        margin-top: 10px;
+        width: 380px;
+        height: 90px;
+        resize: none;
+    }
+
+    .sectionrcont {
+        padding: 20px;
+        width: 400px;
+    }
+
+    /*-------------------------Footer-------------------------------*/
+
+    footer .itemfooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+
+    .sect1footer {
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+}
 @media screen and (max-width: 1290px) {
 
 
@@ -960,11 +1071,9 @@ footer .itemfooter {
 
     .sect1footer {
         display: flex;
-        /* justify-content: space-evenly; */
         flex-direction: column;
         width: 80%;
         align-items: center;
-        /* align-content: space-between; */
     }
     .txts1{
         margin: 10px;
@@ -976,7 +1085,7 @@ footer .itemfooter {
     }
     .grid-layout{
         display: grid;
-        grid-template-columns: 10% 30%;
+        grid-template-columns: 10% 40%;
         grid-template-rows: 25% 20% 20% 20%;
         grid-gap: 2px;
         justify-content: center;
@@ -992,6 +1101,26 @@ footer .itemfooter {
 }
 
 @media screen and (max-width: 768px) {
+
+    /*--------------------Seccion 1---------------------------------*/
+    .itemSect1 {
+        align-items: flex-start;
+        margin: 0px;
+        margin-left: 0px;
+    }
+    
+    .txtHome {
+        min-width: 450px;
+        color: #000000;
+        padding: 20px 20px 0px 20px;
+        margin: 10px;
+    }  
+    .formHome {
+        position: relative;
+        min-width: 350px;
+        margin: 20px;
+        
+    }
 
     /*---------------Seccion 2-----------*/
     #section-2 {
@@ -1031,5 +1160,35 @@ footer .itemfooter {
         margin: 10px 0px 0px 50px;
         overflow: hidden;
         position: absolute;
+    }
+    /*-----------Footer------------------*/
+
+    footer .itemfooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+
+    }
+
+    .sect1footer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+    .txts1{
+        margin: 10px;
+    }
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 10% 60%;
+        grid-template-rows: 25% 20% 20% 20%;
+        grid-gap: 2px;
+        justify-content: center;
     }
 }
