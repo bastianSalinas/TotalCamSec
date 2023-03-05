@@ -19,7 +19,7 @@ html {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
 
 ul {
@@ -32,7 +32,7 @@ ul {
 
 .afterheader {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     text-align: right;
     min-height: 30px;
     padding-top: 5px;
@@ -105,7 +105,7 @@ ul {
 }
 
 .formHome {
-    background-color: white;
+    background-color: #FFFFFF;
     border: 1px solid;
     width: 90%;
     max-width: 667px;
@@ -169,7 +169,7 @@ textarea::placeholder {
 .btnFormHome {
     background-color: #000000;
     border: none;
-    color: white;
+    color: #FFFFFF;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -218,7 +218,7 @@ textarea::placeholder {
 }
 
 .txtserv1 {
-    color: white;
+    color: #FFFFFF;
     position: relative;
 }
 
@@ -251,7 +251,7 @@ textarea::placeholder {
 }
 
 .txtserv2 {
-    color: white;
+    color: #FFFFFF;
     position: relative;
 }
 
@@ -270,7 +270,7 @@ textarea::placeholder {
 }
 
 .txtserv3 {
-    color: white;
+    color: #FFFFFF;
     position: relative;
 }
 
@@ -290,7 +290,7 @@ textarea::placeholder {
 }
 
 .txtserv4 {
-    color: white;
+    color: #FFFFFF;
     position: relative;
 }
 
@@ -313,7 +313,7 @@ textarea::placeholder {
 
 .textmission {
     width: 65%;
-    color: white;
+    color: #FFFFFF;
     padding: 30px 60px;
 }
 
@@ -381,7 +381,7 @@ textarea::placeholder {
 
 .textimage {
     width: 400px;
-    color: white;
+    color: #FFFFFF;
 }
 
 .containerus {
@@ -396,7 +396,7 @@ textarea::placeholder {
     margin: 15px 10px;
     border-left: solid #1C2745;
     font-size: large;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
     width: 500px;
     height: 80px;
@@ -413,7 +413,7 @@ textarea::placeholder {
     margin: 15px 10px;
     border-left: solid #1C2745;
     font-size: large;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
     width: 500px;
     height: 80px;
@@ -430,7 +430,7 @@ textarea::placeholder {
     margin: 15px 10px;
     border-left: solid #1C2745;
     font-size: large;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
     width: 500px;
     height: 80px;
@@ -447,7 +447,7 @@ textarea::placeholder {
     margin: 15px 10px;
     border-left: solid #1C2745;
     font-size: large;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
     width: 500px;
     height: 80px;
@@ -473,7 +473,7 @@ textarea::placeholder {
     padding: 150px;
     margin-left: 50px;
     justify-content: space-between;
-    color: white;
+    color: #FFFFFF;
 }
 
 .sectionrcont {
@@ -500,7 +500,7 @@ textarea::placeholder {
 .btnFormCont {
     background-color: #1C2745;
     border: none;
-    color: white;
+    color: #FFFFFF;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -514,7 +514,7 @@ textarea::placeholder {
 
 footer {
     background-color: #000000;
-    color: white;
+    color: #FFFFFF;
     padding: 20px;
 }
 
@@ -637,7 +637,7 @@ footer .itemfooter {
 
     .textmission {
         width: 90%;
-        color: white;
+        color: #FFFFFF;
         padding: 20px 0px 0px 20px;
     }
 
@@ -663,7 +663,7 @@ footer .itemfooter {
         padding: 20px;
         margin-left: 20px;
         justify-content: space-between;
-        color: white;
+        color: #FFFFFF;
     }
 
     #taformcont {
@@ -863,7 +863,7 @@ footer .itemfooter {
         flex-direction: column;
         width: 90%;
         margin-left: 20px;
-        color: white;
+        color: #FFFFFF;
     }
 
     #taformcont {
@@ -934,7 +934,7 @@ footer .itemfooter {
 
     .textmission {
         width: 100%;
-        color: white;
+        color: #FFFFFF;
         padding: 20px 0px 0px 20px;
     }
 
