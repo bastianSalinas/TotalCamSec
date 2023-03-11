@@ -227,7 +227,6 @@ textarea::placeholder {
 .txtserv1, .txtserv2, .txtserv3, .txtserv4 {
     color: #FFFFFF;
     position: relative;
-    text-align: justify;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -297,21 +296,29 @@ textarea::placeholder {
 }
 
 .mission {
-    width: 100%;
+    margin-left: 80px;
+    width: 80%;
     display: grid;
-    grid-template-columns: 46% 46%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    padding: 40px 0px 40px 150px;
+    padding: 50px 0px 40px 100px;
 }
 .imgmission {
-    width: 550px;
-    margin: 20px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+.imgmission2 {
+    width: 400px;
+    display: block;
+    margin: auto;
 }
 
 .textmission {
-    width: 100%;
+    width: 70%;
     color: #FFFFFF;
-    padding: 30px 60px;
+    padding: 20px;
+    margin: auto
 }
 
 .sectionmedal {
@@ -321,54 +328,11 @@ textarea::placeholder {
     grid-template-rows: 50% 50%;
     grid-gap: 2px;
 }
-
-#medal1 {
-    color: #000000;
-    width: 500px;
+.card:hover {
+    transition: 0.3s;
+    transform: scale(1.05, 1.05);
 }
 
-#medal3 {
-    color: #000000;
-}
-
-.containerSlide {
-    height: 150px;
-}
-
-.slider {
-    width: 65vw;
-    height: auto;
-    margin: 10px 0px 0px 190px;
-    overflow: hidden;
-    position: absolute;
-}
-
-.slider .slide-track {
-    display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 14);
-}
-
-.slider .slide {
-    width: 200px;
-}
-
-.slider .slide img {
-    width: 100%;
-}
-
-@keyframes scroll {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    100% {
-        -webkit-transform: translateX(calc(-200px * 7));
-        transform: translateX(calc(-200px * 7));
-    }
-}
 
 /*---------------------------------------Sección 4---------------------------------------------------------*/
 #section-4 {
@@ -378,6 +342,8 @@ textarea::placeholder {
 
 .imgaboutus {
     width: 400px;
+    display: block;
+    margin: auto;
 }
 
 .textimage {
@@ -387,11 +353,12 @@ textarea::placeholder {
 }
 
 .containerus {
-    width: 70%;
+    
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    margin: 0px 0px 0px 160px;
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    padding: 50px 0px 40px 100px;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
@@ -586,23 +553,6 @@ footer .itemfooter {
         margin: 20px 0px 20px 20px;
     }
 
-    /*-------------------------Sección 3------------------------------*/
-    
-
-    .slider {
-        width: 75vw;
-        height: auto;
-        margin: 10px 0px 0px 50px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    /*-------------------------Sección 4------------------------------*/
-
-    .containerus {
-        margin: 0px 0px 0px 20px;
-    }
-
     /*-------------------------------------------Sección 5------------------------------------------------------*/
 
     .containercont {
@@ -653,6 +603,16 @@ footer .itemfooter {
 
 }
 
+@media screen and (max-width: 1360px) {
+
+    /*-------------------------Sección 3------------------------------*/
+    
+    .textmission {
+        width: 100%;
+    }
+    
+}
+
 @media screen and (max-width: 1290px) {
 
 
@@ -675,42 +635,8 @@ footer .itemfooter {
         margin: 20px 0px 20px 20px;
     }
 
-    /*-------------------------Sección 3------------------------------*/
-    .mission {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 0px 0px 20px;
-    }
 
-    .mission {
-        width: 85%;
-    }
-
-    .imgmission {
-        width: 430px;
-        margin: 20px;
-    }
-
-    .textmission {
-        width: 90%;
-        color: #FFFFFF;
-        padding: 20px 0px 0px 20px;
-    }
-
-    .slider {
-        width: 75vw;
-        height: auto;
-        margin: 10px 0px 0px 50px;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    /*-------------------------Sección 4------------------------------*/
-
-    .containerus {
-        margin: 0px 0px 0px 20px;
-    }
-
+ 
     /*-------------------------------------------Sección 5------------------------------------------------------*/
 
     .containercont {
@@ -806,6 +732,18 @@ footer .itemfooter {
 
 }
 
+@media screen and (max-width: 1150px) {
+
+    /*-------------------------Sección 3------------------------------*/
+    
+    .mission {
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    
+}
+
 @media screen and (max-width: 1024px) {
 
     /*------------------Cabecera------------------------------------*/
@@ -837,10 +775,25 @@ footer .itemfooter {
         height: auto;
     }
 
-    /*---------------------Seccion 2--------------------------------*/
-    /*No se aplicará con 1024px*/
+    /*---------------------Seccion 3--------------------------------*/
+
+    .mission {
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        padding: 50px 0px 40px 0px;
+    }
 
 
+    /*---------------------Seccion 4--------------------------------*/
+    .containerus {
+    
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 0px 40px 20px;
+    }
 
     /*-------------------------Footer-------------------------------*/
 
@@ -955,39 +908,21 @@ footer .itemfooter {
     .containerus {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        border: 2px solid white;
     }
 
     .imgaboutus {
         min-width: 400px;
     }
-
-    .sectionrus {
-        width: 60%;
+    .textimage{
+        width: 100%;
     }
 
-    .box1 {
+    .box1, .box2, .box3, .box4, .box5 {
         margin: 20px 0px;
-        width: 400px;
-    }
-
-    .box2 {
-        margin: 20px 0px;
-        width: 400px;
-    }
-
-    .box3 {
-        margin: 20px 0px;
-        width: 400px;
-    }
-
-    .box4 {
-        margin: 20px 0px;
-        width: 400px;
-    }
-
-    .box5 {
-        margin: 20px 0px;
-        width: 400px;
+        width: 97%;
     }
 
     /*-------------------------------------------Sección 5------------------------------------------------------*/
@@ -1063,6 +998,21 @@ footer .itemfooter {
 
 }
 
+@media screen and (max-width: 930px) {
+
+    /*-------------------------Sección 3------------------------------*/
+    
+    .mission {
+        
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding: 20px 0px 20px 0px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
 
     /*--------------------Seccion 1---------------------------------*/
@@ -1103,28 +1053,7 @@ footer .itemfooter {
 
     /*-------------------------Sección 3------------------------------*/
 
-    .mission {
-        width: 85%;
-    }
-
-    .imgmission {
-        width: 430px;
-        margin: 20px;
-    }
-
-    .textmission {
-        width: 100%;
-        color: #FFFFFF;
-        padding: 20px 0px 0px 20px;
-    }
-
-    .slider {
-        width: 75vw;
-        height: auto;
-        margin: 10px 0px 0px 50px;
-        overflow: hidden;
-        position: absolute;
-    }
+    
 
     /*-----------Footer------------------*/
 
