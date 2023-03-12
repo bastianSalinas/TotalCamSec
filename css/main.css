@@ -130,12 +130,22 @@ ul {
     margin: 10px;
 }
 
-.txtHome {
-    width: 50%;
+.txtHome{
+    width: 100%;
     min-width: 520px;
     color: #000000;
-    padding: 20px 350px 0px 70px;
+    padding: 20px 0px 0px 0px;
 }
+.tituloHome{
+    width: 60%;
+    padding-left: 120px;
+}
+.parrafoHome {
+    width: 40%;
+    padding-left: 120px;
+}
+
+
 
 .chbox {
     font-size: 20px !important;
@@ -563,20 +573,23 @@ footer .itemfooter {
 
     /*--------------------Seccion 1---------------------------------*/
 
-    .itemSect1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .txtHome {
-        width: 75%;
+    .txtHome{
+        width: 100%;
+        min-width: 520px;
         color: #000000;
-        padding: 20px;
+        padding: 20px 0px 0px 0px;
     }
-
+    .tituloHome{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .parrafoHome {
+        width: 40%;
+        padding-left: 100px;
+    }
     .formHome {
         position: relative;
-        min-width: 450px;
+        min-width: 550px;
         margin: 20px 0px 20px 20px;
     }
 
@@ -622,7 +635,7 @@ footer .itemfooter {
 
     /*--------------------Seccion 1---------------------------------*/
 
-    .itemSect1 {
+    /* .itemSect1 {
         display: flex;
         flex-direction: column;
     }
@@ -637,7 +650,7 @@ footer .itemfooter {
         position: relative;
         min-width: 450px;
         margin: 20px 0px 20px 20px;
-    }
+    } */
 
     /*-------------------------Footer-------------------------------*/
 
@@ -710,9 +723,50 @@ footer .itemfooter {
     }
 
 }
+@media screen and (max-width: 1200px) {
+
+
+    /*---------------------Seccion 1--------------------------------*/
+    .itemSect1 {
+        
+        margin-left: 20px;
+    }
+    .txtHome{
+        width: 100%;
+        color: #000000;
+        padding: 20px 0px 0px 0px;
+    }
+    .tituloHome{
+        width: 80%;
+        padding-left: 30px;
+    }
+    .parrafoHome {
+        width: 40%;
+        padding-left: 30px;
+    }
+}
 
 @media screen and (max-width: 1150px) {
 
+    /*---------------------Seccion 1--------------------------------*/
+    .itemSect1 {
+        margin-left: 20px;
+    }
+    .txtHome{
+        width: 300px;
+        min-width: 300px;
+        color: #000000;
+        padding: 20px 0px 0px 0px;
+    }
+    .tituloHome{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .parrafoHome {
+        width: 40%;
+        padding-left: 0px;
+    }
+    
     /*-------------------------Sección 3------------------------------*/
 
     .mission {
@@ -749,15 +803,22 @@ footer .itemfooter {
     }
 
     .txtHome {
-        width: 100%;
+        width: 80%;
         color: #000000;
-        padding: 20px;
+        padding-top: 120px;
+        margin-left: 20px;
+    }
+    .tituloHome{
+        width: 45%;
+    }
+    .parrafoHome{
+        padding-bottom: 60px;
     }
 
     .formHome {
         position: relative;
         min-width: 450px;
-        margin: 20px 0px 20px 20px;
+        margin: 20px 0px 20px 120px;
         height: auto;
     }
 
@@ -863,10 +924,18 @@ footer .itemfooter {
     }
 
     .txtHome {
-        width: 45%;
+        width: 70%;
         color: #000000;
-        padding: 20px 100px 0px 0px;
-        margin-right: 100px;
+        padding: 100px 100px 0px 0px;
+        margin-right: 50px;
+        font-size: 20px !important;
+        font-weight: 900 !important;     
+    }
+    .tituloHome{
+        width: 100%;
+    }
+    .parrafoHome{
+        width: 50%;
     }
 
     .formHome {
@@ -892,29 +961,33 @@ footer .itemfooter {
     /*-------------------------Sección 3------------------------------*/
 
     .mission {
-
-        width: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        padding: 20px 0px 20px 0px;
+        grid-template-rows: 20% 30% 25% 25%;
+        padding: 40px 0px 100px 0px;
     }
 
     .sectionmedal {
         width: 80%;
+        padding-top: 60px;
         margin: auto;
+        font-size: 20px !important;
+        font-weight: 900 !important;
     }
 
     .imgmission2 {
         width: 350px;
         display: block;
         margin: auto;
+        margin-top: 40px;
     }
 
     .textmission {
         width: 80%;
         color: #FFFFFF;
         padding-top: 40px;
+        font-size: 20px !important;
+        font-weight: 900 !important;
         margin: auto;
     }
 
@@ -1110,7 +1183,7 @@ footer .itemfooter {
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 15% 30% 30% 25%;
         padding: 20px 0px 0px 0px;
     }
 
@@ -1118,14 +1191,16 @@ footer .itemfooter {
         width: 350px;
         margin: auto;
     }
-
     .imgmission2 {
         width: 300px;
         margin: auto;
+        margin-top: 100px;
     }
+    
 
     .imgC2 {
         margin-top: 10px;
+        display: flex;
     }
 
     .textmission {
@@ -1139,5 +1214,7 @@ footer .itemfooter {
 
     .sectionmedal {
         margin-left: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
