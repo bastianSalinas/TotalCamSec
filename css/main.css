@@ -22,6 +22,11 @@ a {
     color: #FFFFFF;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 ul {
     margin-bottom: 0px;
 }
@@ -68,6 +73,7 @@ ul {
     color: #000000;
     font-family: 'Numito', sans-serif;
     font-size: 20px;
+    padding-top: 10px;
 }
 
 .navbar ul li::before {
@@ -224,7 +230,10 @@ textarea::placeholder {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.txtserv1, .txtserv2, .txtserv3, .txtserv4 {
+.txtserv1,
+.txtserv2,
+.txtserv3,
+.txtserv4 {
     color: #FFFFFF;
     position: relative;
     font-weight: 900;
@@ -303,11 +312,13 @@ textarea::placeholder {
     grid-template-rows: 50% 50%;
     padding: 50px 0px 40px 100px;
 }
+
 .imgmission {
     width: 400px;
     display: block;
     margin: auto;
 }
+
 .imgmission2 {
     width: 400px;
     display: block;
@@ -326,8 +337,9 @@ textarea::placeholder {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    grid-gap: 2px;
+    grid-gap: 10px;
 }
+
 .card:hover {
     transition: 0.3s;
     transform: scale(1.05, 1.05);
@@ -353,7 +365,7 @@ textarea::placeholder {
 }
 
 .containerus {
-    
+
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -361,7 +373,11 @@ textarea::placeholder {
     padding: 50px 0px 40px 100px;
 }
 
-.box1, .box2, .box3, .box4, .box5 {
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
     margin: 15px 10px;
     border-left: solid #1C2745;
     text-align: justify;
@@ -397,6 +413,17 @@ textarea::placeholder {
     transform: scale(1.05, 1.05);
 }
 
+.imgCarousel {
+    width: 100%;
+    height: 350px;
+}
+
+.containerCarousel {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
 /*-------------------------------------------Sección 5------------------------------------------------------*/
 
 #section-5 {
@@ -406,9 +433,8 @@ textarea::placeholder {
 
 .containercont {
     display: flex;
-    width: 90%;
+    width: 100%;
     padding: 150px;
-    margin-left: 50px;
     justify-content: space-between;
     color: #FFFFFF;
 }
@@ -530,6 +556,7 @@ footer .itemfooter {
 }
 
 /*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1425px) {
 
@@ -551,29 +578,6 @@ footer .itemfooter {
         position: relative;
         min-width: 450px;
         margin: 20px 0px 20px 20px;
-    }
-
-    /*-------------------------------------------Sección 5------------------------------------------------------*/
-
-    .containercont {
-        display: flex;
-        width: 80%;
-        padding: 20px;
-        margin-left: 20px;
-        justify-content: space-between;
-        color: #FFFFFF;
-    }
-
-    #taformcont {
-        margin-top: 10px;
-        width: 380px;
-        height: 90px;
-        resize: none;
-    }
-
-    .sectionrcont {
-        padding: 20px;
-        width: 400px;
     }
 
     /*-------------------------Footer-------------------------------*/
@@ -606,11 +610,11 @@ footer .itemfooter {
 @media screen and (max-width: 1360px) {
 
     /*-------------------------Sección 3------------------------------*/
-    
+
     .textmission {
         width: 100%;
     }
-    
+
 }
 
 @media screen and (max-width: 1290px) {
@@ -633,31 +637,6 @@ footer .itemfooter {
         position: relative;
         min-width: 450px;
         margin: 20px 0px 20px 20px;
-    }
-
-
- 
-    /*-------------------------------------------Sección 5------------------------------------------------------*/
-
-    .containercont {
-        display: flex;
-        width: 80%;
-        padding: 20px;
-        margin-left: 20px;
-        justify-content: space-between;
-        color: #FFFFFF;
-    }
-
-    #taformcont {
-        margin-top: 10px;
-        width: 380px;
-        height: 90px;
-        resize: none;
-    }
-
-    .sectionrcont {
-        padding: 20px;
-        width: 400px;
     }
 
     /*-------------------------Footer-------------------------------*/
@@ -735,13 +714,24 @@ footer .itemfooter {
 @media screen and (max-width: 1150px) {
 
     /*-------------------------Sección 3------------------------------*/
-    
+
     .mission {
         margin-left: 0px;
         width: 100%;
-        
+
     }
-    
+
+    /*-------------------------Sección 5------------------------------*/
+
+    .containercont {
+        display: flex;
+        width: 100%;
+        padding: 150px 0px 120px 40px;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -751,10 +741,6 @@ footer .itemfooter {
         display: none;
     }
 
-    /* .checkbtn {
-        display: block;
-        cursor: pointer;
-    } */
     /*--------------------Seccion 1---------------------------------*/
 
     .itemSect1 {
@@ -788,7 +774,7 @@ footer .itemfooter {
 
     /*---------------------Seccion 4--------------------------------*/
     .containerus {
-    
+
         width: 80%;
         display: flex;
         justify-content: space-evenly;
@@ -903,6 +889,40 @@ footer .itemfooter {
         cursor: pointer;
     }
 
+    /*-------------------------Sección 3------------------------------*/
+
+    .mission {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .sectionmedal {
+        width: 80%;
+        margin: auto;
+    }
+
+    .imgmission2 {
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    .textmission {
+        width: 80%;
+        color: #FFFFFF;
+        padding-top: 40px;
+        margin: auto;
+    }
+
+    .imgC2 {
+        padding-top: 20px;
+
+    }
+
     /*-------------------------Sección 4------------------------------*/
 
     .containerus {
@@ -910,19 +930,28 @@ footer .itemfooter {
         flex-direction: column;
         width: 100%;
         margin-left: 0px;
-        border: 2px solid white;
+
     }
 
     .imgaboutus {
-        min-width: 400px;
+        min-width: 350px;
     }
-    .textimage{
+
+    .textimage {
         width: 100%;
     }
 
-    .box1, .box2, .box3, .box4, .box5 {
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
         margin: 20px 0px;
         width: 97%;
+        height: auto;
+        padding-top: 20px;
+        font-size: 20px !important;
+        font-weight: bold !important;
     }
 
     /*-------------------------------------------Sección 5------------------------------------------------------*/
@@ -930,14 +959,14 @@ footer .itemfooter {
     .containercont {
         display: flex;
         flex-direction: column;
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
         color: #FFFFFF;
     }
 
     #taformcont {
         margin-top: 10px;
-        width: 400px;
+        width: 95%;
         height: 90px;
         resize: none;
     }
@@ -949,8 +978,7 @@ footer .itemfooter {
 
     .sectionrcont {
         margin-top: 20px;
-        padding: 0px;
-        width: 400px;
+        width: 90%;
         margin-left: 0px;
 
     }
@@ -998,20 +1026,6 @@ footer .itemfooter {
 
 }
 
-@media screen and (max-width: 930px) {
-
-    /*-------------------------Sección 3------------------------------*/
-    
-    .mission {
-        
-        width: 100%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        padding: 20px 0px 20px 0px;
-    }
-    
-}
 
 @media screen and (max-width: 768px) {
 
@@ -1051,9 +1065,7 @@ footer .itemfooter {
         width: 100%;
     }
 
-    /*-------------------------Sección 3------------------------------*/
 
-    
 
     /*-----------Footer------------------*/
 
@@ -1090,3 +1102,42 @@ footer .itemfooter {
     }
 }
 
+@media screen and (max-width: 505px) {
+
+    /*--------------------Seccion 3---------------------------------*/
+    .mission {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .imgmission {
+        width: 350px;
+        margin: auto;
+    }
+
+    .imgmission2 {
+        width: 300px;
+        margin: auto;
+    }
+
+    .imgC2 {
+        margin-top: 10px;
+    }
+
+    .textmission {
+        width: 100%;
+        color: #FFFFFF;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .sectionmedal {
+        margin-left: 20px;
+    }
+}
