@@ -246,7 +246,8 @@ textarea::placeholder {
 .txtserv4 {
     color: #FFFFFF;
     position: relative;
-    font-weight: 900;
+    font-size: 25px !important;
+    font-weight: 900 !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -392,6 +393,8 @@ textarea::placeholder {
     margin: 15px 10px;
     border-left: solid #1C2745;
     text-align: justify;
+    font-size: 20px !important;
+    font-weight: bold !important;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #FFFFFF;
