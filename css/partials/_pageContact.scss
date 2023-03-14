@@ -1,0 +1,59 @@
+/*-------------------------------------------Sección 5------------------------------------------------------*/
+
+#section-5 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
+}
+
+.containercont {
+    display: flex;
+    width: 100%;
+    padding: 150px;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.sectionrcont {
+    margin-left: 20px;
+}
+
+#taformcont {
+    margin-top: 10px;
+    width: 500px;
+    height: 90px;
+    resize: none;
+}
+
+.lblformcont {
+    position: relative;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btnFormCont {
+    background-color: #1C2745;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 0px 12px;
+    cursor: pointer;
+}
+
+.imgContact {
+    width: 300px;
+    margin-bottom: 80px;
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,47 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1150px) {
+
+    /*---------------------Seccion 1--------------------------------*/
+    .itemSect1 {
+        margin-left: 20px;
+    }
+
+    .txtHome {
+        width: 300px;
+        min-width: 300px;
+        color: #000000;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .tituloHome {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .parrafoHome {
+        width: 40%;
+        padding-left: 0px;
+    }
+
+    /*-------------------------Sección 3------------------------------*/
+
+    .mission {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    /*-------------------------Sección 5------------------------------*/
+
+    .containercont {
+        display: flex;
+        width: 100%;
+        padding: 150px 0px 120px 40px;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+
+}

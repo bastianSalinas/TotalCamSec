@@ -1,0 +1,83 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 768px) {
+
+    /*--------------------Seccion 1---------------------------------*/
+    .itemSect1 {
+        align-items: flex-start;
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .txtHome {
+        min-width: 450px;
+        color: #000000;
+        padding: 20px 20px 0px 20px;
+        margin: 10px;
+    }
+
+    .formHome {
+        position: relative;
+        min-width: 350px;
+        margin: 20px;
+
+    }
+
+    /*---------------Seccion 2-----------*/
+    #section-2 {
+        display: grid;
+    }
+
+    #section-2{
+        >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+
+    .service {
+        width: 100%;
+    }
+
+
+
+    /*-----------Footer------------------*/
+
+    
+    footer {
+        .itemfooter {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+    }
+
+
+    .sect1footer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .txts1 {
+        margin: 10px;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 10% 60%;
+        grid-template-rows: 25% 20% 20% 20%;
+        grid-gap: 2px;
+        justify-content: center;
+    }
+}

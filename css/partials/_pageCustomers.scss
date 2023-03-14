@@ -1,0 +1,50 @@
+/*---------------------------------------------------Sección 3-----------------------------------------------*/
+#section-3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(28, 39, 69, 1) 30%, rgba(221, 221, 221, 1) 100%);
+}
+
+.mission {
+    margin-left: 80px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 50px 0px 40px 100px;
+}
+
+.imgmission {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.imgmission2 {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.textmission {
+    width: 85%;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px;
+    margin: auto
+}
+
+.sectionmedal {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+}
+
+.card{
+
+    &:hover {
+    transition: 0.3s;
+    transform: scale(1.05, 1.05);
+    }
+}

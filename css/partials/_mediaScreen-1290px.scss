@@ -1,0 +1,34 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1290px) {
+
+    /*-------------------------Footer-------------------------------*/
+
+
+    footer {
+        .itemfooter {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+    }
+
+
+    .sect1footer {
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+}

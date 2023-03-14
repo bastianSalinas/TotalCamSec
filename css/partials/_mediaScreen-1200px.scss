@@ -1,0 +1,29 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+
+
+    /*---------------------Seccion 1--------------------------------*/
+    .itemSect1 {
+
+        margin-left: 20px;
+    }
+
+    .txtHome {
+        width: 100%;
+        color: #000000;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .tituloHome {
+        width: 80%;
+        padding-left: 30px;
+    }
+
+    .parrafoHome {
+        width: 40%;
+        padding-left: 30px;
+    }
+}

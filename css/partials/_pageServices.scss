@@ -1,0 +1,131 @@
+/*-----------------------------------------------Sección 2--------------------------------------------------*/
+$colorServices: #FFFFFF;
+$color-effect: rgba(0, 0, 0, 0.33);
+$color-effect2: rgba(0, 0, 0, 0.1);
+$font-sectionS: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+#section-2 {
+    background-color: #1C2745;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.service {
+    width: 25%;
+}
+
+.s1 {
+    background-image: url("../images/servicio1.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+.s1 {
+    &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.txtserv1 {
+	color: $colorServices;
+	position: relative;
+	font-weight: 900;
+	font-family: $font-sectionS;
+}
+.txtserv2 {
+	color: $colorServices;
+	position: relative;
+	font-weight: 900;
+	font-family: $font-sectionS;
+}
+.txtserv3 {
+	color: $colorServices;
+	position: relative;
+	font-weight: 900;
+	font-family: $font-sectionS;
+}
+.txtserv4 {
+	color: $colorServices;
+	position: relative;
+	font-weight: 900;
+	font-family: $font-sectionS;
+}
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    background: #000000;
+    cursor: pointer;
+}
+
+
+.service {
+	&:hover {
+		.overlay {
+			opacity: 0.33;
+		}
+	}
+}
+
+
+.s2 {
+    background-image: url("../images/servicio2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+}
+
+.s2 {
+	&::before {
+		position: absolute;
+		content: "";
+		inset: 0;
+		background-color: $color-effect;
+	}
+}
+
+.s3 {
+    background-image: url("../images/servicio3.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 40px;
+}
+
+.s3 {
+	&::before {
+		position: absolute;
+		content: "";
+		inset: 0;
+		background-color: $color-effect2;
+	}
+}
+
+
+.s4 {
+    background-image: url("../images/servicio4.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 40px;
+}
+
+.s4 {
+	&::before {
+		position: absolute;
+		content: "";
+		inset: 0;
+		background-color: $color-effect;
+	}
+}

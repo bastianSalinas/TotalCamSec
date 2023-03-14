@@ -1,0 +1,262 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 980px) {
+
+    /*--------------------Seccion 1---------------------------------*/
+
+    .itemSect1 {
+        align-items: center;
+    }
+
+    .tituloForm {
+        font-size: 25px !important;
+        font-weight: 900 !important;
+    }
+
+    .tituloForm2 {
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+
+    .txtForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    input[type=text] {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 6px;
+    }
+    input[type=email] {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 6px;
+    }
+    input[type=tel] {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 6px;
+    }
+    textarea {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 6px;
+    }
+
+
+    input[type=checkbox] {
+        margin-top: 20px;
+    }
+
+    .chbox {
+        padding-top: 20px;
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+
+    .txtHome {
+        width: 70%;
+        color: #000000;
+        padding: 100px 100px 0px 0px;
+        margin-right: 50px;
+        font-size: 20px !important;
+        font-weight: 900 !important;     
+    }
+    .tituloHome{
+        width: 100%;
+    }
+    .parrafoHome{
+        width: 50%;
+    }
+
+    .formHome {
+        position: relative;
+        min-width: 450px;
+        margin: 40px;
+
+    }
+
+    .btnFormHome {
+        background-color: #000000;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px 0px 12px;
+        cursor: pointer;
+    }
+
+    /*-------------------------Sección 3------------------------------*/
+
+    .mission {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 30% 25% 25%;
+        padding: 40px 0px 100px 0px;
+    }
+
+    .sectionmedal {
+        width: 80%;
+        padding-top: 60px;
+        margin: auto;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+
+    .imgmission2 {
+        width: 350px;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .textmission {
+        width: 80%;
+        color: #FFFFFF;
+        padding-top: 100px;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        margin: auto;
+    }
+
+    .imgC2 {
+        padding-top: 20px;
+
+    }
+
+    /*-------------------------Sección 4------------------------------*/
+
+    .containerus {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .imgaboutus {
+        min-width: 350px;
+    }
+
+    .textimage {
+        width: 100%;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        margin: 20px 0px;
+        width: 97%;
+        height: auto;
+        padding-top: 20px;
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+
+    /*-------------------------------------------Sección 5------------------------------------------------------*/
+
+    .containercont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        color: #FFFFFF;
+    }
+
+    #taformcont {
+        margin-top: 10px;
+        width: 95%;
+        height: 90px;
+        resize: none;
+    }
+
+    .btnFormCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionrcont {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 0px;
+
+    }
+    .sectionlcont {
+        width: 85%;
+        margin-left: 0px;
+
+    }
+    .containerImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .imgContact{
+        width: 500px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+
+    /*-----------Footer------------------*/
+
+    
+    footer {
+        .itemfooter {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+    }
+
+
+    .sect1footer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .txts1 {
+        margin: 10px;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 10% 40%;
+        grid-template-rows: 25% 20% 20% 20%;
+        grid-gap: 2px;
+        justify-content: center;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+
+}

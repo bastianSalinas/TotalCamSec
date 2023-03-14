@@ -1,0 +1,57 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1425px) {
+
+
+    /*--------------------Seccion 1---------------------------------*/
+
+    .txtHome{
+        width: 100%;
+        min-width: 520px;
+        color: #000000;
+        padding: 20px 0px 0px 0px;
+    }
+    .tituloHome{
+        width: 90%;
+        padding-left: 60px;
+    }
+    .parrafoHome {
+        width: 50%;
+        padding-left: 60px;
+    }
+    .formHome {
+        position: relative;
+        min-width: 600px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    /*-------------------------Footer-------------------------------*/
+
+    
+    footer {
+        .itemfooter {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+    }
+
+
+    .sect1footer {
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+
+    .sect2footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sect3footer {
+        flex-direction: column;
+        width: 80%;
+    }
+
+}

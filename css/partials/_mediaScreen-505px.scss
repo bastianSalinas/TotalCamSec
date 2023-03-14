@@ -1,0 +1,47 @@
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+
+@media screen and (max-width: 505px) {
+
+    /*--------------------Seccion 3---------------------------------*/
+    .mission {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 30% 30% 25%;
+        padding: 40px 0px 0px 0px;
+    }
+
+    .imgmission {
+        width: 350px;
+        margin: auto;
+    }
+
+    .imgmission2 {
+        width: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+
+    .imgC2 {
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .textmission {
+        width: 100%;
+        color: #FFFFFF;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .sectionmedal {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
