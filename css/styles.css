@@ -57,6 +57,13 @@ ul {
   text-align: right;
 }
 
+.containerTitulo {
+  height: 50px;
+  width: 150px;
+  padding-left: 70px;
+  position: absolute;
+}
+
 .navbar ul li {
   list-style: none;
   display: inline-block;
@@ -1216,4 +1223,4 @@ footer .itemfooter {
     display: flex;
     flex-direction: column;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
