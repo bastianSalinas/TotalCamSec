@@ -42,6 +42,8 @@ $background-colorbox: #FFFFFF;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px 15px;
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .box2 {
@@ -58,6 +60,8 @@ $background-colorbox: #FFFFFF;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px 15px;
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .box3 {
@@ -74,6 +78,8 @@ $background-colorbox: #FFFFFF;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px 15px;
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .box4 {
@@ -90,6 +96,8 @@ $background-colorbox: #FFFFFF;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px 15px;
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .box1 {
@@ -116,6 +124,13 @@ $background-colorbox: #FFFFFF;
     }
 }
 
+@for $item from 1 through 4 {
+    .insignia:nth-child(#{$item}){
+        animation-delay: $item*0.2s;
+    }
+}
+
+
 .imgCarousel {
     width: 100%;
     height: 350px;
@@ -126,3 +141,29 @@ $background-colorbox: #FFFFFF;
     margin: auto;
     padding-bottom: 20px;
 }
+
+@-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

@@ -23,6 +23,7 @@ $colorFormhome: #FFFFFF;
     min-width: 660px;
     margin: 20px;
     padding: 40px;
+    animation: slide-in 2s ease;
 }
 
 .txtForm {
@@ -142,5 +143,13 @@ textarea {
                 }
             }
         }
+    }
+}
+@keyframes slide-in{
+    from {
+        transform: translateX(-70vw);
+    }
+    to{
+        transform: traslateX(0);
     }
 }
