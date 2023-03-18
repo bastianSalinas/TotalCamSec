@@ -964,8 +964,26 @@ footer .itemfooter {
 /*------------------------------------------------------------------------*/
 @media screen and (max-width: 992px) {
   /*--------------------Menú---------------------------------*/
+  /*-----------------------Parte Superior Página-----------------------*/
+  #logo {
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .navbar ul li a {
     margin-top: 10px;
+  }
+  .navbar {
+    margin-top: 30px;
+  }
+  .containerTitulo {
+    height: 120px;
+    width: 150px;
+    padding-left: 80px;
+    padding-top: 30px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
   }
 }
 /*-------------------------Diseño Responsivo------------------------------*/
@@ -1083,7 +1101,7 @@ footer .itemfooter {
     margin: auto;
   }
   .imgC2 {
-    padding-top: 20px;
+    padding-top: 100px;
   }
   /*-------------------------Sección 4------------------------------*/
   .containerus {
