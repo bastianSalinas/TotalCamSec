@@ -17,6 +17,15 @@ $font-sectionS: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 25%;
 }
 
+.tituloSec{
+	font-size: 25px !important;
+    font-weight: 900 !important;
+}
+.textoService{
+	font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
 .s1 {
     background-image: url("../images/servicio1.jpg");
     background-size: cover;
@@ -37,7 +46,6 @@ $font-sectionS: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .txtserv1 {
 	color: $colorServices;
 	position: relative;
-	font-weight: 900;
 	font-family: $font-sectionS;
 }
 .txtserv2 {

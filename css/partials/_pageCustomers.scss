@@ -23,6 +23,7 @@
     width: 400px;
     display: block;
     margin: auto;
+    margin-top: 15px;
 }
 
 .textmission {
@@ -31,6 +32,11 @@
     font-size: 18px;
     padding: 20px;
     margin: auto
+}
+
+.sectiontext{
+    font-size: 20px !important;
+    font-weight: 900 !important;
 }
 
 .sectionmedal {
@@ -42,7 +48,8 @@
 }
 
 .card{
-
+    font-size: 20px;
+    font-weight: bold;
     &:hover {
     transition: 0.3s;
     transform: scale(1.05, 1.05);
