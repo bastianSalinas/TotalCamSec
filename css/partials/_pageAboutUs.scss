@@ -100,30 +100,6 @@ $background-colorbox: #FFFFFF;
 	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.box1 {
-    &:hover {
-        transform: scale(1.05, 1.05);
-    }
-}
-
-.box2 {
-    &:hover {
-        transform: scale(1.05, 1.05);
-    }
-}
-
-.box3 {
-    &:hover {
-        transform: scale(1.05, 1.05);
-    }
-}
-
-.box4 {
-    &:hover {
-        transform: scale(1.05, 1.05);
-    }
-}
-
 @for $item from 1 through 4 {
     .insignia:nth-child(#{$item}){
         animation-delay: $item*0.2s;

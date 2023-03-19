@@ -518,22 +518,6 @@ textarea::placeholder {
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.box1:hover {
-  transform: scale(1.05, 1.05);
-}
-
-.box2:hover {
-  transform: scale(1.05, 1.05);
-}
-
-.box3:hover {
-  transform: scale(1.05, 1.05);
-}
-
-.box4:hover {
-  transform: scale(1.05, 1.05);
-}
-
 .insignia:nth-child(1) {
   animation-delay: 0.2s;
 }
