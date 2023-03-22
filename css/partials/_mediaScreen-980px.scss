@@ -155,7 +155,13 @@
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 20% 30% 25% 25%;
-        padding: 40px 0px 100px 0px;
+        padding: 40px 0px 120px 0px;
+    }
+    .imgmission {
+        width: 500px;
+        display: block;
+        margin: auto;
+        margin-top: 80px;
     }
 
     .sectionmedal {
@@ -164,22 +170,27 @@
         margin: auto;
         font-size: 20px !important;
         font-weight: 900 !important;
+        .card {
+            font-size: 30px !important;
+            font-weight: 900 !important;
+        }
     }
 
     .imgmission2 {
-        width: 350px;
+        width: 500px;
         display: block;
         margin: auto;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .textmission {
         width: 80%;
         color: #FFFFFF;
-        padding-top: 100px;
-        font-size: 20px !important;
-        font-weight: 900 !important;
         margin: auto;
+        p{
+            font-size: 30px !important;
+            font-weight: 900 !important;
+        }
     }
 
     .imgC2 {
@@ -197,22 +208,30 @@
     }
 
     .imgaboutus {
-        min-width: 350px;
+
+        width: 500px;
+        display: block;
+        margin: auto;
     }
 
     .textimage {
         width: 100%;
+        padding-top: 100px;
+        p{
+            font-size: 30px !important;
+            font-weight: bold !important;
+        }
     }
 
     .box1,
     .box2,
     .box3,
     .box4 {
-        margin: 20px 0px;
+        margin: 20px 0px 20px 0px;
         width: 97%;
         height: auto;
-        padding-top: 20px;
-        font-size: 20px !important;
+        padding: 50px 0px 50px 0px;
+        font-size: 40px !important;
         font-weight: bold !important;
     }
 
@@ -223,6 +242,7 @@
         flex-direction: column;
         width: 100%;
         margin-left: 0px;
+        padding-top: 300px;
         color: #FFFFFF;
     }
 
@@ -236,6 +256,8 @@
     .btnFormCont {
         display: flex;
         flex-direction: column;
+        font-size: 30px !important;
+        font-weight: bold !important;
     }
 
     .sectionrcont {
@@ -247,6 +269,16 @@
     .sectionlcont {
         width: 85%;
         margin-left: 0px;
+        margin-bottom: 50px;
+        h1{
+            font-size: 40px !important;
+            font-weight: bold !important;
+        }
+        & h4{
+            font-size: 30px !important;
+            font-weight: bold !important;
+        }
+        
 
     }
     .containerImg{
