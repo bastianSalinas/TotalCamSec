@@ -72,7 +72,7 @@
         <section id="section-1">
             <div class="itemSect1">
                 <div class="dForm">
-                    <form class="formHome">
+                    <form class="formHome" method="post" action="emailFormHome.php">
                         <h4 class="tituloForm">Agenda tu visita sin costo, rellenando el formulario</h4>
                         <div class="txtForm">
                             <input type="text" id="name" name="name" placeholder="Nombre" required>
@@ -82,17 +82,17 @@
                         </div>
                         <div class="chbox">
                             <h5 class="tituloForm2">Servicios (*)</h5>
-                            <div><input type="checkbox" class="opservice" value="camaras"> <label
+                            <div><input type="checkbox" class="opservice" name="servicio1" value="SiS1"> <label
                                     class="lblform">Instalación de Cámaras de Seguridad</label>
                             </div>
-                            <div><input type="checkbox" class="opservice" value="grabadores"> <label
+                            <div><input type="checkbox" class="opservice" name="servicio2" value="SiS2"> <label
                                     class="lblform">Grabadores de Gran Almacenamiento</label></div>
-                            <div><input type="checkbox" class="opservice" value="alarmas"> <label
+                            <div><input type="checkbox" class="opservice" name="servicio3" value="SiS3"> <label
                                     class="lblform">Alarmas</label></div>
-                            <div><input type="checkbox" class="opservice" value="sensores"> <label
+                            <div><input type="checkbox" class="opservice" name="servicio4" value="SiS4"> <label
                                     class="lblform">Sensores de Movimiento</label></div>
                         </div>
-                        <textarea placeholder="Comentario adicional" id="taform"></textarea>
+                        <textarea placeholder="Comentario adicional" name="comment" id="taform"></textarea>
                         <input type="submit" value="Agendar" class="btnFormHome">
                     </form>
                 </div>
