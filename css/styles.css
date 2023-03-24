@@ -244,6 +244,44 @@ textarea::placeholder {
     transform: traslateX(0);
   }
 }
+/*---------------------------------------------------Sección Thanks-----------------------------------------------*/
+.section-6 {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(170deg, rgb(0, 0, 0) 0%, rgb(28, 39, 69) 30%, rgb(221, 221, 221) 100%);
+}
+
+.tituloThanks {
+  color: #88B04B;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+  color: #404F5E;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.icono {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+
+.tarjeta {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: inline-block;
+  margin: auto;
+}
+
 /*-----------------------------------------------Sección 2--------------------------------------------------*/
 #section-2 {
   background-color: #1C2745;
@@ -422,6 +460,10 @@ textarea::placeholder {
 .card:hover {
   transition: 0.5s;
   transform: scale(1.05, 1.05);
+}
+
+#imgCard {
+  width: 70px;
 }
 
 /*---------------------------------------Sección 4---------------------------------------------------------*/
@@ -1091,7 +1133,7 @@ footer .itemfooter {
   }
   .formHome {
     position: relative;
-    min-width: 850px;
+    min-width: 720px;
     margin: 40px;
   }
   .btnFormHome {
@@ -1290,6 +1332,30 @@ footer .itemfooter {
 }
 /*-------------------------Diseño Responsivo------------------------------*/
 /*------------------------------------------------------------------------*/
+@media screen and (max-width: 967px) {
+  /*---------------Seccion 1-----------*/
+  .dForm {
+    width: 100%;
+  }
+  .formHome {
+    position: relative;
+    min-width: 700px;
+  }
+}
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+@media screen and (max-width: 780px) {
+  /*---------------Seccion 1-----------*/
+  .dForm {
+    width: 100%;
+  }
+  .formHome {
+    position: relative;
+    min-width: 650px;
+  }
+}
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   /*--------------------Seccion 1---------------------------------*/
   .itemSect1 {
@@ -1342,8 +1408,24 @@ footer .itemfooter {
   }
   .grid-layout {
     display: grid;
-    grid-template-columns: 10% 60%;
+    grid-template-columns: 10% 70%;
     grid-template-rows: 25% 20% 20% 20%;
+    grid-gap: 2px;
+    justify-content: center;
+  }
+}
+/*-------------------------Diseño Responsivo------------------------------*/
+/*------------------------------------------------------------------------*/
+@media screen and (max-width: 670px) {
+  .sectionmedal {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 30% 20% 20% 30%;
     grid-gap: 2px;
     justify-content: center;
   }
@@ -1380,9 +1462,12 @@ footer .itemfooter {
     margin-left: 0px;
     height: auto;
   }
-  .sectionmedal {
-    margin-left: 20px;
-    display: flex;
+  /*-----------Footer------------------*/
+  .sect2footer {
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 900 !important;
   }
 }/*# sourceMappingURL=styles.css.map */
