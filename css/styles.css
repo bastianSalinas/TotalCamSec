@@ -1201,6 +1201,7 @@ footer .itemfooter {
     width: 80%;
     color: #FFFFFF;
     margin: auto;
+    padding-top: 60px;
   }
   .textmission p {
     font-size: 30px !important;
