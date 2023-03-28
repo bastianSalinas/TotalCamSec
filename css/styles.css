@@ -58,9 +58,9 @@ ul {
 }
 
 .containerTitulo {
-  height: 50px;
-  width: 150px;
-  padding-left: 70px;
+  height: 72px;
+  width: 80px;
+  margin-left: 70px;
   position: absolute;
 }
 
@@ -999,6 +999,9 @@ footer .itemfooter {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .containerNav > a:first-child {
+    height: 200px;
+  }
   .navbar ul li a {
     margin-top: 30px;
     font-size: 30px !important;
@@ -1014,10 +1017,11 @@ footer .itemfooter {
     width: 80%;
   }
   .containerTitulo {
-    height: 200px;
-    width: 300px;
-    padding-left: 150px;
-    padding-top: 30px;
+    height: 155px;
+    width: 150px;
+    padding-left: 0px;
+    margin-left: 150px;
+    margin-top: 20px;
     position: absolute;
   }
   .containerTitulo h5 {

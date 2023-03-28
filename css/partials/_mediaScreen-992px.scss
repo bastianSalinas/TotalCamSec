@@ -18,12 +18,17 @@
             }
         }
     }
-    
+             
     #logo {
-        width: 150px;
+        width: 150px ;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .containerNav{
+        > a:first-child{ 
+            height: 200px;   
+        }
+    }  
     .navbar {
         ul {
             li {
@@ -45,10 +50,11 @@
         }
     }
     .containerTitulo{
-        height: 200px;
-        width: 300px;
-        padding-left: 150px;
-        padding-top: 30px;
+        height: 155px;
+        width: 150px;
+        padding-left: 0px;
+        margin-left: 150px;
+        margin-top: 20px;
         position: absolute;
         h5 {
             font-size: 40px !important;
