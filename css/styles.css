@@ -60,6 +60,7 @@ ul {
 .containerTitulo {
   height: 72px;
   width: 80px;
+  padding-top: 14px;
   margin-left: 70px;
   position: absolute;
 }
@@ -101,6 +102,8 @@ ul {
 }
 
 #logo {
+  padding-top: 14px;
+  padding-bottom: 14px;
   width: 70px;
 }
 
@@ -996,11 +999,12 @@ footer .itemfooter {
   }
   #logo {
     width: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
   .containerNav > a:first-child {
-    height: 200px;
+    height: 180px;
+  }
+  .navbar ul {
+    padding-bottom: 20px;
   }
   .navbar ul li a {
     margin-top: 30px;
@@ -1021,7 +1025,7 @@ footer .itemfooter {
     width: 150px;
     padding-left: 0px;
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 0px;
     position: absolute;
   }
   .containerTitulo h5 {

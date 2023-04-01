@@ -21,16 +21,15 @@
              
     #logo {
         width: 150px ;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     .containerNav{
         > a:first-child{ 
-            height: 200px;   
+            height: 180px;   
         }
     }  
     .navbar {
         ul {
+            padding-bottom: 20px;
             li {
                 a {
                     margin-top: 30px;
@@ -54,7 +53,7 @@
         width: 150px;
         padding-left: 0px;
         margin-left: 150px;
-        margin-top: 20px;
+        margin-top: 0px;
         position: absolute;
         h5 {
             font-size: 40px !important;
