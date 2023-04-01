@@ -649,8 +649,8 @@ textarea::placeholder {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px 0px 12px;
+  font-size: 20px;
+  margin: 4px 100px 0px 12px;
   cursor: pointer;
 }
 
