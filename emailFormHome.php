@@ -23,7 +23,7 @@ $formcontent="
     Comentario Adicional: $comment
 ";
 
-$recipient = "totalcamsec12@gmail.com";
+$recipient = "f.valdes@totalcamsec.com";
 
 $subject = "Contacto Web $name";
 
